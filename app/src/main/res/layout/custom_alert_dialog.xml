@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="10dp">
+
+    <EditText
+        android:id="@+id/nameDialog"
+        android:layout_width="match_parent"
+        android:hint="User Name"
+        android:layout_height="40dp"
+        android:layout_marginTop="10dp"
+        android:paddingLeft="10dp"
+        android:background="@drawable/shape_edittext1"
+        android:inputType="textPersonName"/>
+
+
+
+    <EditText
+        android:id="@+id/phoneNumberDialog"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:hint="Phone Number"
+        android:layout_marginTop="10dp"
+        android:paddingLeft="10dp"
+        android:background="@drawable/shape_edittext1"
+        android:inputType="number"/>
+
+    <EditText
+        android:id="@+id/addressDialog"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:hint="Address"
+        android:layout_marginTop="10dp"
+        android:paddingLeft="10dp"
+        android:background="@drawable/shape_edittext1"
+        android:inputType="textPersonName"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="15dp"
+        android:layout_marginBottom="15dp"
+        android:gravity="center">
+
+        <TextView
+            android:textColor="#FF0000"
+            android:id="@+id/btnDialogCancel"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:layout_marginLeft="200dp"
+            android:textStyle="bold"
+            android:textSize="17sp"
+            android:text="Cancel"/>
+
+        <TextView
+            android:textStyle="bold"
+            android:textColor="@color/purple_500"
+            android:id="@+id/btnDialogSave"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:textSize="17sp"
+            android:layout_marginRight="12dp"
+            android:text="Save"/>
+
+    </LinearLayout>
+
+</LinearLayout>
